@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Route for student number
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({"student_number": "YOUR_STUDENT_NUMBER"})
+    return jsonify({"student_number": "200537767"})
 
 # Route for webhook
 @app.route('/webhook', methods=['POST'])
